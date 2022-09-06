@@ -41,7 +41,7 @@ void setup() {
 
   // Initializing LCD Display
   lcd.begin(16, 2);
-  }
+}
 
 void loop() {
 
@@ -84,5 +84,5 @@ void loop() {
   lcd.print(String(averagePercentage) + " %");
 
   delay(1000);
-  }
+}
   
