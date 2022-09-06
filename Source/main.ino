@@ -59,21 +59,21 @@ void loop() {
     digitalWrite(RED_LED_PIN, HIGH);
     digitalWrite(GREEN_LED_PIN, LOW);
     digitalWrite(BLUE_LED_PIN, LOW);
-  }
+    }
 
   // Turning on the green LED if the soil humidity is in a healthy percentage range for the plant
   if (averagePercentage >= 0 && moisturePercentage <= 30) {
     digitalWrite(GREEN_LED_PIN, HIGH);
     digitalWrite(RED_LED_PIN, LOW);
     digitalWrite(BLUE_LED_PIN, LOW);
-  }
+    }
 
   // Turning on the blue LED if the soil humidity is greater than desired and the plant has too much water
   if (averagePercentage > 30) {
     digitalWrite(BLUE_LED_PIN, HIGH);
     digitalWrite(RED_LED_PIN, LOW);
     digitalWrite(GREEN_LED_PIN, LOW);
-  }
+    }
 
   // Printing to serial monitor
   Serial.println(averagePercentage);
