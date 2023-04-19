@@ -77,7 +77,8 @@ void loop() {
 
   // Printing to serial monitor
   Serial.println(averagePercentage);
-
+  
+  // Printing to the LCD
   lcd.setCursor(0, 0);
   lcd.print("Soil Humidity:");
   lcd.setCursor(0, 1);
