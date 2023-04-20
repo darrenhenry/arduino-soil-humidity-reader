@@ -9,3 +9,10 @@ The main loop of this program maps the analog moisture reading to an average per
 - Blue LED indicates that the soil humidity percentage is too high for the plant
 
 The conditional ranges should be customized to suit the needs of your specific plant, so that the LEDs indicate when (and how much) your plant needs to be watered.
+
+Notes for improvement/future implementations: 
+
+- Utilize capacitive soil humidity sensor for no copper exposure
+- Increase energy efficiency by increasing time between measurements
+- Implement solar power/recharchable battery
+- Create custom housing for system once complete
