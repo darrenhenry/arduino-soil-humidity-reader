@@ -13,7 +13,7 @@ The conditional ranges should be customized to suit the needs of your specific p
 Notes for improvement/future implementations: 
 
 - Utilize capacitive soil humidity sensor for no copper exposure
-- Utilize multiple capacitive sensors in different soil locations to generate average readings
+- Utilize multiple capacitive sensors in different soil locations to generate readings from different soil locations and create a more representative average
 - Increase energy efficiency by increasing time between measurements
 - Implement solar power/recharchable battery
 - Create custom housing for system once complete
