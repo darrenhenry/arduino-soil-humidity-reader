@@ -61,7 +61,9 @@ void loop() {
     digitalWrite(BLUE_LED_PIN, LOW);
     }
 
+// BUGGED
   // Turning on the green LED if the soil humidity is in a healthy percentage range for the plant
+  // SHOULD BE AVERAGE PERCENTAGE FOR BOTH AND > INSTEAD OF >=
   if (averagePercentage >= 0 && moisturePercentage <= 30) {
     digitalWrite(GREEN_LED_PIN, HIGH);
     digitalWrite(RED_LED_PIN, LOW);
